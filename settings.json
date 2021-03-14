@@ -1,7 +1,7 @@
 {
 	// Editor and icon theme
 	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
 
 	// Font settings
 	"editor.fontFamily": "JetBrains Mono",
