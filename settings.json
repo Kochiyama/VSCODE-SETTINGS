@@ -1,0 +1,139 @@
+{
+	// Editor and icon theme
+	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+	"workbench.iconTheme": "material-icon-theme",
+
+	// Font settings
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 12,
+	"editor.lineHeight": 18,
+	"editor.fontWeight": "500",
+
+	// Explorer
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"window.openFilesInNewWindow": "default",
+
+	// Editor
+	"breadcrumbs.enabled": true,
+	"editor.minimap.enabled": false,
+	"editor.parameterHints.enabled": false,
+
+	"editor.renderIndentGuides": true,
+	"editor.rulers": [80, 120],
+	"editor.renderLineHighlight": "gutter",
+
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.decorations.colors": true,
+	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
+
+	"editor.matchBrackets": "always",
+
+	// zen mode
+	"zenMode.hideTabs": false,
+	"zenMode.hideStatusBar": true,
+	"zenMode.hideActivityBar": false,
+
+	// formatting
+	"editor.tabSize": 2,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 80,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// prettier
+	"prettier.arrowParens": "avoid",
+	"prettier.bracketSpacing": true,
+	"prettier.embeddedLanguageFormatting": "auto",
+	"prettier.endOfLine": "lf",
+	"prettier.jsxBracketSameLine": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 80,
+	"prettier.proseWrap": "always",
+	"prettier.quoteProps": "as-needed",
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"prettier.withNodeModules": false,
+	"prettier.useEditorConfig": true,
+
+	// Cursor Style
+	"editor.cursorStyle": "block-outline",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorBlinking": "smooth",
+	"terminal.integrated.cursorBlinking": true,
+
+	// terminal
+	"terminal.integrated.fontWeightBold": "500",
+	"terminal.integrated.lineHeight": 1.1,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"terminal.integrated.shell.linux": "/usr/bin/zsh",
+
+	// Javascript
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"typescript.updateImportsOnFileMove.enabled": "never",
+
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+
+	// emmet
+	"emmet.syntaxProfiles": {
+		"typescript": "tsx"
+	},
+
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact",
+		"html": "html"
+	},
+
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "never",
+
+	// associations
+	"files.associations": {
+		".sequelizerc": "javascript"
+	},
+
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	],
+
+	// EXTENSIONS
+	"extensions.ignoreRecommendations": true,
+
+	// git lens
+	"gitlens.advanced.messages": {
+		"suppressImproperWorkspaceCasingWarning": true
+	},
+
+	// bracket pair colorizer
+	"bracket-pair-colorizer-2.highlightActiveScope": true,
+	"bracket-pair-colorizer-2.colorMode": "Consecutive",
+	"bracket-pair-colorizer-2.rulerPosition": "Center",
+	"bracket-pair-colorizer-2.showBracketsInGutter": true,
+	"bracket-pair-colorizer-2.colors": [
+		"Gold",
+		"Orchid",
+		"LightSkyBlue",
+		"#7bd88f",
+		"#fd9353",
+		"#5ad4e6",
+		"#948ae3"
+	],
+
+	// html
+	"html.suggest.html5": true,
+	"html.autoClosingTags": true,
+	"editor.linkedEditing": true,
+
+	"editor.tabCompletion": "on",
+	"editor.snippetSuggestions": "top"
+}
